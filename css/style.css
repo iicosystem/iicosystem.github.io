@@ -169,19 +169,19 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background-size: cover;
 }
 
-#slide2{
+#slide3{
 	background-color: #4e4e4e;
 	color: #333333;
-	height: 300px;
+	height: 420px;
 	overflow: hidden;
 	padding: 200px 0;
     float:left;
 }
 
-#slide3{
+#slide2{
 	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
 	color: #4e4e4e;
-	height: 600px;
+	height:1000px;
 	padding: 170px 0 0 0;	
 	background-size: cover;
 }
