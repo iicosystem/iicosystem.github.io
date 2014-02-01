@@ -14,66 +14,69 @@ body{
     background-color:#242424;
 }
 
-.iicologo {
-    width:350px;
-    height:350px;
+
+
+#img1, #img2, #img3, #img4, #img5 {
+
+    width:200px;
+    height:200px;
     position:fixed;
     top:50%;
     left:50%;
-    margin-top: -175px;
-    margin-left:-175px;
-    z-index:10;
-}
-
-#img1, #img2, #img3, #img4 {
-
-    width:350px;
-    height:350px;
-    position:fixed;
-    top:50%;
-    left:50%;
-    margin-top: -175px;
-    margin-left:-175px;
+    margin-top: -100px;
+    margin-left:-100px;
     z-index:10;
 }
 
 
 h1 { 
-    font-family:"Arvo";
+    font-family:"Pacifico";
 	font-weight:normal;
 	font-size: 55px;
-	text-align: left;
+	text-align: center;
 	color: #fff;
 	margin: 0;
 	padding: 0;
 }
 
 h2 {
-   font-family:"Arvo";
+   font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
    font-weight: normal;
    font-size: 40px;
-   text-align:left;
+   text-align:center;
    color: #fff;
    margin: 0;
 	padding: 0;
 }
 
 h3 {
-   font-family: Oswald;
+   font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+   font-weight: normal;
+   font-size: 20px;
+   text-align:center;
+   color: #fff;
+   margin: 0;
+	padding: 0;
+}
+
+h4 {
+   font-family: 'Oswald';
    font-weight: normal;
    font-size: 16px;
-   text-align: left;
+   text-align: center;
    margin: 5px 0;
 	padding: 0;
-	z-index: 1;
-	position: relative;
+    color: #ddd;
 }
 
 
 
 
+
 .center { margin: 0 auto; }
-.content{ margin: 0 auto; width: 925px; }
+.content{ margin: 0 auto; width: 920px; }
 .clear { clear: both; }
 a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
 a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
@@ -88,11 +91,11 @@ a.rpanel:hover{ color: #fff; }
 	background: url('../img/header-bg.png'); 
 	height: 80px; 	
 	position: fixed;
-	margin-top: 30px;
+	padding-top: 30px;
 }
 
-#nav { width: 410px; float: right; margin-top: 20px; }
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#nav { width: 410px; float: right;   }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; color: #fff; font-family:"Pacifico"; }
 #nav ul{
 	list-style: none;
 	display: block;
@@ -106,7 +109,8 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 21px;
 }
 
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;}
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1;  }
 
@@ -163,43 +167,49 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide1{
 	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
 	color: #4e4e4e;
-	height:420px;
+	height:1000px;
 	margin: 0;
-	padding: 200px 0 260px 0;
+	padding: 0px 0 0x 0;
 	background-size: cover;
 }
 
-#slide3{
-	background-color: #4e4e4e;
-	color: #333333;
-	height: 420px;
-	overflow: hidden;
-	padding: 200px 0;
-    float:left;
-}
+
 
 #slide2{
-	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/slide2.jpg) 50% 0 no-repeat fixed;
 	color: #4e4e4e;
 	height:1000px;
-	padding: 170px 0 0 0;	
+	padding: 0px 0 0px 0;	
+	background-size: cover;
+}
+
+
+#slide3{
+	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 000px 0 000px 0;
+	color: #fff;
+    overflow: hidden;
 	background-size: cover;
 }
 
 #slide4{
-	background-color: #4e4e4e;
-	color: #333333;
-	height: 300px;
-	padding: 200px 0;
+	background: url(../img/slide4.jpg) 50% 0 no-repeat fixed;
+	color: #4e4e4e;
+	height:1000px;
+	padding: 0px 0 0px 0;	
+	background-size: cover;
 }
 
 #slide5{
-	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
-	height: 200px;
-	margin: 0 auto;
-	padding: 250px 0;
-	color: #fff;
-	background-size: cover;
+    background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	background-color: #222;
+	color: #bfbfbf;
+	height: 900px;
+	overflow: hidden;
+    background-size: cover;
+	padding: 0px 0 100px 0;
 }
 
 
