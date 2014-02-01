@@ -95,7 +95,7 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #nav { width: 410px; float: right;   }
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; color: #fff; font-family:"Pacifico"; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; color: #fff; font-family:"Pacifico"; margin-top:-12px }
 #nav ul{
 	list-style: none;
 	display: block;
@@ -109,7 +109,7 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 21px;
 }
 
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Roboto Condensed', sans-serif;
+#nav li a { color: #fff; opacity:0.4; font-size: 16px; text-decoration: none; font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;}
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1;  }
