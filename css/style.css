@@ -96,6 +96,7 @@ a.rpanel:hover{ color: #fff; }
 
 #nav { width: 410px; float: right;   }
 #logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; color: #fff; font-family:"Pacifico"; margin-top:-12px }
+#logo a:hover { color: #00adee;  }
 #nav ul{
 	list-style: none;
 	display: block;
