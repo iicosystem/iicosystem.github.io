@@ -1,0 +1,22 @@
+{
+	"lytes": [
+		{
+			"level":1,
+			"latitude":43.4715,
+			"longitude":-80.576,
+			"name":"home",
+			"address":"229-249 Pineland Court, Waterloo, ON N2T, Canada",
+			"id":1
+		},
+	
+		{
+			"level":1,
+			"latitude":48.8582,
+			"longitude":2.2945,
+			"name":"eiffel tower",
+			"address":"Avenue Pierre Loti, 75007 Paris, France",
+			"id":2
+		},
+
+	]
+}
