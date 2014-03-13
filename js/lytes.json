@@ -1,22 +1,26 @@
-{
-	"lytes": [
-		{
-			"level":1,
-			"latitude":43.4715,
-			"longitude":-80.576,
-			"name":"home",
-			"address":"229-249 Pineland Court, Waterloo, ON N2T, Canada",
-			"id":1
-		},
-	
-		{
-			"level":1,
-			"latitude":48.8582,
-			"longitude":2.2945,
-			"name":"eiffel tower",
-			"address":"Avenue Pierre Loti, 75007 Paris, France",
-			"id":2
-		},
-
-	]
-}
+[
+    {
+        "name": "John Doe",
+        "latlng": [
+            62.457434,
+            17.349869
+        ],
+        "population": "123"
+    },
+    {
+        "name": "Jane Doe",
+        "latlng": [
+            62.455102,
+            17.345599
+        ],
+        "population": "132"
+    },
+    {
+        "name": "James Bond",
+        "latlng": [
+            62.458287,
+            17.356306
+        ],
+        "population": "123"
+    }
+] 
