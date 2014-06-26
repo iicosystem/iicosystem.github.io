@@ -250,13 +250,13 @@
 .sy-slide.sy-active {
   z-index: 3;
 }
-.sy-slide > a {
+.sy-slide  {
   margin: 0;
   padding: 0;
   display: block;
   width: 100%;
 }
-.sy-slide > a > img {
+.sy-slide >  img {
   margin: 0;
   padding: 0;
   display: block;
