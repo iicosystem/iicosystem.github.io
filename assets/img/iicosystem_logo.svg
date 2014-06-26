@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1024px"
+	 height="1024px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+<g id="Layer_2">
+	<g>
+		<polygon fill="#FFFFFF" points="194.345,776.485 512.026,935.241 829.709,776.485 510.778,617.73 		"/>
+		<path fill="#FFFFFF" d="M776.486,326.868l158.728,79.15l0.001-105.753L512.026,88.759L88.786,300.265l0,105.752l158.777-79.149
+			l-0.042,211.579L88.786,617.73v105.546l423.32-211.506l423.108,211.506V617.732l-158.686-79.286L776.486,326.868z M670.64,485.539
+			l-158.612-79.521l-158.583,79.521l-0.045-211.508l158.706-79.313l158.579,79.313L670.64,485.539z"/>
+	</g>
+</g>
+<g id="Layer_1" display="none">
+	<polygon display="inline" fill="#231F20" points="1161.064,157.433 1581.85,361.992 1581.85,499.51 1432.723,428.843 
+		1434.17,605.195 1581.85,680.004 1581.85,807.211 1161.064,594.055 1161.064,473.727 1295.227,530.453 1299.199,373.529 
+		1161.064,319.018 	"/>
+	<polygon display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" points="914.311,737.398 523.908,962.797 
+		133.506,737.398 133.506,286.602 523.907,61.203 914.31,286.602 	"/>
+	<path display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" d="M523.908,512"/>
+	<line display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" x1="523.907" y1="61.203" x2="523.908" y2="962.797"/>
+	<line display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" x1="523.141" y1="737.398" x2="914.31" y2="512"/>
+	<polyline display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" points="133.506,512 523.909,286.602 
+		718.726,399.079 914.31,512 133.506,512 523.141,737.398 	"/>
+	<polygon display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" points="328.707,624.699 719.109,624.699 
+		718.726,399.079 328.707,399.301 	"/>
+	<polyline display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" points="133.506,286.602 328.898,399.411 
+		914.311,737.398 133.506,737.398 914.31,286.602 133.506,286.602 328.707,624.699 523.909,286.602 328.707,173.902 	"/>
+	<polyline display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" points="523.908,177.756 523.908,173.902 
+		328.707,173.902 328.803,286.602 328.898,399.411 133.506,399.079 328.803,512 523.908,399.411 328.803,286.602 523.908,173.902 	
+		"/>
+	
+		<line display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" x1="133.506" y1="399.079" x2="328.803" y2="286.602"/>
+	<polyline display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" points="328.707,624.699 133.506,624.699 
+		328.803,512 	"/>
+	<polyline display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" points="426.308,455.65 328.707,455.65 
+		231.346,455.65 	"/>
+	
+		<line display="inline" fill="none" stroke="#FFF200" stroke-miterlimit="10" x1="393.839" y1="511.889" x2="231.154" y2="230.224"/>
+</g>
+</svg>

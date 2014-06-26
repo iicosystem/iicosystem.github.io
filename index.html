@@ -1,169 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-       <title>iicosystem</title>
-       <link rel="stylesheet" href="css/style.css"/>
-	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-       
-	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700,300' rel='stylesheet' type='text/css'>
-      
-	<script>
-   
-<!----- JQUERY FOR SLIDING NAVIGATION --->   
-$(document).ready(function() {
-  $('a[href*=#]').each(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
+<html>
 
-<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
-        $(this).click(function() {
-            //$("#nav li a").removeClass("active");
-           // $(this).addClass('active');
-           $('html, body').animate({scrollTop: targetOffset}, 1000);
-           return false;
-         });
-      }
-    }
-  });
-
-});
-
-
-</script>
-      
-<script>
-      <!--- script for fading logo --->
-           $(document).scroll(function () {
-    var y = $(this).scrollTop();
-    if (y >550) {
-        $('#img2').fadeIn({});
-    }
-    else {$('#img2').fadeOut('fast')};
     
-    if (y > 1550) {
-        $('#img3').fadeIn({});
-    }
-    else {$('#img3').fadeOut('fast')};
-    
-    if (y > 2550) {
-        $('#img4').fadeIn({});
-    }
-    else {$('#img4').fadeOut('fast')};
-    if (y > 3550) {
-        $('#img5').fadeIn({});
-    }
-    else {$('#img5').fadeOut('fast')};
-});
-      
-      </script>
-
-
- </head> 
-    
-<body>
-<!----- HEADER START --->   
-<header id="header">
-<div class="content">
-<div id="logo"><a href=""> iicosystem</a></div>
-
-<nav id="nav">
-	<ul>
-		<li><a href="#slide1"  title="Next Section" >Home</a></li>
-		<li><a href="#slide2" title="Next Section">Apps</a></li>
-		<li><a href="#slide3" title="Next Section">Music</a></li>
-		<li><a  href="#slide4" title="Next Section">Graphic Design</a></li>
-		<li><a href="#slide5" title="Next Section">Contact</a></li>
-	</ul>
-    
-</nav>
-    
-    
-</div>
-</header>	
-<!----- HEADER END--->   
-<img  id = "img1" src="img/iico_outline_white.png">
-<img  id = "img2" src="img/iico_outline_lblue.png">
-<img  id = "img3" src="img/iico_outline_rblue.png">
-<img  id = "img4" src="img/iico_outline_bblue.png">
-<img  id = "img5" src="img/iico_outline_blue.png">
-
-<!----- SLIDES START --->
-    <div class="story">
-	<div id="slide1">
-		<div class="content">
-            <div style="padding-top:14%">
-            <h2>Welcome to</h2>
-		    <h1>iicosystem</h1>
-		     <h4>scroll down </h4>
-                </div>
+<head>
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="/js/slippry.min.js"></script>
+    <link rel="stylesheet" href="/css/slippry.css" /> 
+    <link rel="stylesheet" href="/css/style.css" /> 
+    <script>
+         jQuery(document).ready(function(){
+              jQuery('#slippry-demo').slippry()
+            });
+    </script>
+</head>
+  
+<body> 
+    <div style="background-color:#ffffff;">
+        <div>
+        <div class = "logo" alt="iicosystem"/>
+        </div>
+        
+        
+        <ul id="slippry-demo" class = "slider">
+            
              
-		</div> 
-    </div> 
+          <li>
+            <a href="#slide1"><img src="assets/img/slide1.jpg"></a>
+          </li>
+          <li>
+            <a href="#slide2"><img src="assets/img/slide2.jpg"></a>
+          </li>
+          <li>
+            <a href="#slide2"><img src="assets/img/slide3.jpg"></a>
+          </li>
+            
+            <div class="title">
+            iicosystem
+            </div>
+            <div/>
+            
+            <div class="definition">
+            noun: a network of interconnecting and interacting parts
+            </div>
+            
+            <div/>
+            
+            <div class="definition">
+            origin: ecosystem
+            </div>
+        </ul>
+        <div class="content_wrapper">
+            <div>
+            Welcome to iicosystem.
+            
+            </div>
+        
+            
     </div>
     
-
-	<div id="slide2">
-		<div class="content" >
-            <div style="float:left; width:360px; margin-top:250px">
-            <h2>Apps</h2>
-		    <h3>fun stuff.</h3>
-
-                </div>
-		</div> 
-    </div> 
-        
-	
-	
-   <div id="slide3">
-		<div class="content" >
-            <div style="float:right; width:360px;margin-top:250px">
-            <h2>Music</h2>
-		    <h3>boom boom.</h3>
-
-                </div>
-		</div> 
-    </div> 
-	
-	
-	 
-	
-	
-	<div id="slide4">
-		<div class="content" >
-            
-            <div style="padding-top:250px">
-            <h2>Graphic Design</h2>
-		    <h3>smexy.</h3>
-
-         </div>
-               
-		</div> 
-		
-
-    </div> 
+    </div>
+    <div class="footer">
+        <div class = "content_wrapper">
+                Copyright iicosystem 2014
+        </div>
+    </div>
+  
     
-    <div id="slide5">
-		<div class="content" style="padding-top:250px">
-           <div class="quotes_container">
-
-		    <h3 >Contact me bro</h3>
-		  
-		  </div> 
-		
-		</div> 
-		
-
-    </div> 
-	
-<!----- SLIDES END --->
-
+    
 </body>
+
+    
 </html>
