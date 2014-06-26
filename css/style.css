@@ -137,16 +137,14 @@ body {
     }
     
     .title{
-        font-size:18pt;
-        letter-spacing:-1pt; 
        margin-top:5%;
-        margin-left:13%;
+        margin-left:10%;
     }
     
     .definition{
-       font-size:11pt;
-        margin-left:13%;
-        margin-right:13%;
+       font-size:14pt;
+        margin-left:10%;
+        margin-right:10%;
     }
 
 }
