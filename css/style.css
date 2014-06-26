@@ -7,11 +7,19 @@ body {
     background-color:#d7d7d7;
 }
 
+.no_select{    
+        user-select: none;
+
+-webkit-user-select: none;
+
+-moz-user-select: -moz-none;
+}
+
 .slider{
     position: relative;
     margin-left: auto;
     margin-right: auto;  
-    
+
 }
 
 .logo{
