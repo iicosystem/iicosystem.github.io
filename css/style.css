@@ -7,11 +7,16 @@ body {
     background-color:#d7d7d7;
 }
 
+::selection {
+	background: #ff0056; /* Safari */
+	}
+::-moz-selection {
+	background: #ff0056; /* Firefox */
+}
+
 .no_select{    
         user-select: none;
-
 -webkit-user-select: none;
-
 -moz-user-select: -moz-none;
 }
 
@@ -61,6 +66,19 @@ body {
     
 }
 
+.header{
+    background-color: #00adee;
+    color:white;
+    padding: 1em 0 1em 0;
+}
+
+.subheading{
+    margin-right: 10%;
+    margin-left:10%;
+    font-size:36pt; 
+    letter-spacing:-3pt;
+}
+
 .definition{
     position:relative;
     z-index:19;
@@ -73,12 +91,55 @@ body {
     padding:0px 7px 0px 0px;
     
     margin-top:2%;
-     margin-left:10%;
+    margin-left:10%;
 }
 
 .content_wrapper{
     margin-left:10%;
+    margin-right:10%;
+    height:auto;
     
+}
+
+
+.hex{
+ max-height:15em;   
+}
+
+.three_column{
+    width:32.5%;
+    padding: 1em 0 3em 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.imageHolder {
+    position: relative; 
+    width: 26.8%;
+    max-width: 25em;
+    height: auto; 
+    margin:3%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f7f7f7;
+} 
+
+.imageHolder .caption { 
+    opacity: 0; 
+    position: absolute; 
+    height:100%; 
+    width: 100%; 
+    top: 0px; 
+    left: 0px;
+    padding: 2px 0px; 
+    color: black; 
+    background: white;
+    text-align: center; 
+} 
+
+.imageHolder:hover .caption{
+    opacity: 0.8;
 }
 
 .footer{
@@ -99,6 +160,7 @@ body {
        font-size:24pt;
         letter-spacing:-2pt; 
     }
+    
 }
 
 @media only screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
@@ -116,6 +178,9 @@ body {
        font-size:18pt;
         letter-spacing:-1.5pt; 
     }
+    
+    
+
 }
 
 @media only screen and (max-device-width: 760px), screen and (max-width: 760px) {
@@ -132,6 +197,20 @@ body {
     .definition{
        font-size:14pt;
         letter-spacing:-1pt; 
+    }
+   .subheading{
+        font-size:24pt;
+        letter-spacing:-2pt;
+    }
+  
+    .three_column{
+     float:none;
+        width:100%;
+    }
+    
+    .imageHolder {
+        float:none;
+        width:100%;
     }
 }
 
@@ -154,5 +233,6 @@ body {
         margin-left:10%;
         margin-right:10%;
     }
-
+  
+    
 }
