@@ -2,6 +2,7 @@
 
     
 <head>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <script src="/js/jquery-1.11.1.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <script src="/js/slippry.min.js"></script>
@@ -53,8 +54,9 @@
             </div>
         </ul>
         <div class="content_wrapper">
+          <div class = "whitespace"> </div>
             <div>
-                
+
                 <div class="three_column">
                     <div>
                         <img  src="assets/img/des.svg" class="hex"/>
@@ -86,12 +88,14 @@
                 </div>
                 
                 <div style="clear: both;"></div>
+                
            
             </div>
-          
+          <div class = "whitespace"> </div>
     </div>
+</div>
     
-    </div>
+    
     
     
     <div class = "header">
@@ -142,13 +146,21 @@
     
     <div class = "content_wrapper">
     
-        <div style = "padding:2em 0 2em 0">
-        For inquiries contact iicosystem at:
-        <br>
-        iicosystem@gmail.com
-        </div>
+   <form action="/php/contact.php" method="post">
+	Your name<br>
+    <input type="text" name="cf_name"><br>
+	Your e-mail<br>
+    <input type="text" name="cf_email"><br>
+	Message<br>
+    <textarea name="cf_message"></textarea><br>
+	<input type="submit" value="Send">
+	<input type="reset" value="Clear">
+    </form>
+
         
     </div>
+        
+ 
     
     
     <div class="footer">

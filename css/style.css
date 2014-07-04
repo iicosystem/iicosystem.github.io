@@ -66,6 +66,10 @@ body {
     
 }
 
+.whitespace{
+    margin-top:15%;
+}
+
 .header{
     background-color: #00adee;
     color:white;
