@@ -4,7 +4,7 @@ body {
  margin-bottom: 0px;
  margin-left: 0px;
     font-family: 'Open Sans', sans-serif;
-    background-color:#d7d7d7;
+    background-color:#1a1a1a;
 }
 
 ::selection {
@@ -70,9 +70,9 @@ body {
     margin-top:15%;
 }
 
-.header{
-    background-color: #00adee;
-    color:white;
+.grey_section{
+    background-color: #f2f2f2;
+    color:black;
     padding: 1em 0 1em 0;
 }
 
@@ -121,15 +121,14 @@ body {
 .imageHolder {
     position: relative; 
     width: 26.8%;
-    max-width: 25em;
+    max-width: 12em;
     height: auto; 
-    margin:3%;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
     background-color: #f7f7f7;
 } 
 
-.imageHolder .caption { 
+.project .caption { 
     opacity: 0; 
     position: absolute; 
     height:100%; 
@@ -146,11 +145,48 @@ body {
     opacity: 0.8;
 }
 
+/*B&W*/
+.bw {
+     -webkit-filter: grayscale(100%);
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+.project{
+ height: 30%;
+}
+
+.project_logo{
+    height:100%;
+    width:30%;
+    display: inline-block;
+}
+
+.project_text{
+    height:100%;
+    width:50%;
+    text-align: left;
+    vertical-align:top;
+    display: inline-block;
+    margin-left: 10%;
+    color:black;
+    font-size: 24pt;
+    
+}
+
 .footer{
     margin-top: 1em;
     margin-bottom: 1em;
     padding-top: 1em;
-    background-color:#d7d7d7;
+    background-color:#1a1a1a;
+    color: white;
     
 }
 
